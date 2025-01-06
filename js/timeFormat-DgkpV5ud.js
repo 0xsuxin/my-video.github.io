@@ -1,0 +1,1 @@
+const t=t=>`${String(Math.floor(t/3600)).padStart(2,"0")}:${String(Math.floor(t%3600/60)).padStart(2,"0")}:${String(t%60).padStart(2,"0")}`,a=t=>{const a=Math.floor(t);return`${Math.floor(a/86400)} days ${String(Math.floor(a%86400/3600)).padStart(2,"0")}：${String(Math.floor(a%3600/60)).padStart(2,"0")}：${String(a%60).padStart(2,"0")}`};export{a,t as f};
